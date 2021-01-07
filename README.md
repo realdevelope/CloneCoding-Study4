@@ -14,4 +14,7 @@
 5. Adding Genres✔
 6. Styles Timelapse✔
 7. Cutting th summery✔
-
+8. Getting Ready for the Router✔ 
+9. Buinding the Router✔
+10. Building the Navigation✔<br>
+11. Redirecting✔
