@@ -1,7 +1,7 @@
-import React from "react";
+  import React from "react";
 import axios from "axios";
-import Movie from "./components/Movie";
-import "./App.css";
+import Movie from "../components/Movie";
+import "./Home.css";
 
 class Home extends React.Component {
   state = {
@@ -29,7 +29,7 @@ class Home extends React.Component {
       <section className="container"> {isLoading ?                                          //삼항연산(조건) 
         (<div className="loader"><span className="loader__text">Loading...</span></div>) :  //삼항연산(참일때)
         (<div className="movies">{movies.map(movie=>{                                       //삼항연산(거짓일때)
-              return <Movie
+               <Movie
                 key={movie.id}
                 id={movie.id}
                 year={movie.year}
@@ -42,8 +42,8 @@ class Home extends React.Component {
           </div>
          )}
       </section>
-    )
+    );
   }
 }
   
-export default App;
+export default Home;
