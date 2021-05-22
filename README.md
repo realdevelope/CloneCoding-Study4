@@ -1,5 +1,6 @@
 
 # React Movie app
+- 노마드코더 - 영화 평점 웹 서비스
 - 1월 한달 프론트앤드 기초부터 바로잡기 프로젝트
 
 ## 🏠학습환경
@@ -7,7 +8,7 @@
 - npm start (localhost: 3000)
 
 ## 📚학습내용
-- nomadcoder - 영화 평점 웹서비스 clone<br>
+- 영화 평점 웹서비스 clone<br>
     https://nomadcoders.co/react-fundamentals
 
     1. Planning the Movie Component
